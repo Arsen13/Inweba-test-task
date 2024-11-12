@@ -13,7 +13,7 @@ a {
     color: inherit;
 }
 
-ul {
+.nav_menu ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -386,3 +386,200 @@ ul {
     text-align: center;
 }
 
+/* Our courses */
+
+.our-courses {
+    width: 1920px;
+    height: 2043px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-courses-container {
+    width: 1340px;
+}
+
+.our-courses-header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: #003366;
+}
+
+.our-courses-card-container {
+    border: 2px solid #003366;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.our-courses-card-container-header {
+    width: 1260px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.our-courses-card-container-header-left {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.our-courses-card-container-header-left-icon {
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    background: #003366;
+}
+
+.our-courses-card-container-header-left-icon img {
+    width: 28px;
+    height: 28px;
+}
+
+.our-courses-card-container-header-left h4 {
+    width: 1058px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003366;
+}
+
+.our-courses-card-container-header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.our-courses-card-container-header-right button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    padding: 14px;
+    background: #003366;
+}
+
+.our-courses-card-container-header-right button img {
+    width: 12.25px;
+    height: 12.25px;
+}
+
+.our-courses-card-container-header-right p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+}
+
+.our-courses-card-container-labels {
+    width: 1260px;
+    height: 47px;
+    display: flex;
+    gap: 12px;
+    margin: 40px 0 40px 0;
+}
+
+.our-courses-card-container-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF3F7;
+    border: none;
+    border-radius: 45px;
+    padding: 0 16px;
+    gap: 8px;
+    text-align: center;
+}
+
+.our-courses-card-container-label img {
+    width: 24px;
+    height: 24px;
+}
+
+.our-courses-card-container-label p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+}
+
+.our-courses-card-container-main-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.our-courses-card-container-main-paragraph {
+    width: 1260px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #003366;
+}
+
+.our-courses-card-container-main-paragraphs {
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+}
+
+.styled-marker > li {
+    width: 1220px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+    list-style-type: none;
+    position: relative;
+}
+
+.styled-marker > li::before {
+    content: '';
+    position: absolute;
+    left: -40px; /* налаштуйте відступ, якщо потрібно */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/list-style-img.png);
+    background-size: cover;
+}
+
+.our-courses-card-container-price {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0 36px 0;
+}
+
+.our-courses-card-container-price p {
+    font-size: 30px;
+    line-height: 45px;
+    color: #003366;
+}
+
+.our-courses-card-container-price img {
+    height: 45px;
+}
+
+.our-courses-card-container-footer button {
+    width: 216px;
+    border: none;
+    border-radius: 14px;
+    padding: 14px 30px;
+    background: #003366;
+}
+
+.our-courses-card-container-footer span {
+    font-size: 20px;
+    line-height: 30px;
+    color: #FBFBFB;
+}
