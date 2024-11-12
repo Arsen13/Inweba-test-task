@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
+    background: #FBFBFB;
     margin: 0;
     padding: 0;
 }
@@ -19,7 +20,7 @@ ul {
 }
 
 .Hero {
-    background: #FBFBFB;
+    max-width: 1920px;
 }
 
 .Header {
@@ -171,69 +172,13 @@ ul {
     border: none;
     border-radius: 20px;
 }
-/*
 
-.hero-container {
-    display: flex;
-    gap: 24px;
-    color: #FBFBFB;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.hero-sub-container {
-    width: 680px;
-    padding: 80px 80px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background: #003366;
-}
-
-.header-text-container {
-    font-family: "Poppins", sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    font-stretch: extra-condensed;
-    font-style: normal;
-    line-height: 40px;
-}
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.text-container p {
-    background: green;
-    padding-right: 120px;
-}
-
-.text-container button {
-    max-width: 190px;
-    min-height: 58px;
-    border: none;
-    border-radius: 14px;
-    padding: 14px 20px;
-    background-color: #FBFBFB;
-    color: #003366;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.hero-container-img img {
-    width: 460px;
-    height: 100%;
-    border: none;
-    border-radius: 20px;
-} */
+/* Advantages */
 
 .advantages {
     width: 1920px;
     height: 560px;
-    margin: 58px 0 0 -10px;
+    margin: 58px 0 0 0;
     background: #E0E7EF;
     display: flex;
     justify-content: center;
@@ -309,3 +254,135 @@ ul {
     font-weight: 500;
     color: #003366;
 }
+
+/* About me*/
+
+.about-me {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-container {
+    width: 1340px;
+    height: 658px;
+    margin-top: 52px;
+}
+
+.about-me-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.about-me-header-container h2 {
+    width: 1167px;
+    height: 63px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: #003366;
+    margin: 0;
+}
+
+.about-me-button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-me-button-container button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    padding: 14px;
+    background: #003366;
+}
+
+.about-me-button-container button img {
+    width: 12.25px;
+    height: 12.25px;
+}
+
+.about-me-button-container p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+}
+
+.about-me-main-container {
+    width: 1340px;
+    height: 575px;
+    display: flex;
+    gap: 24px;
+}
+.about-me-main-container img {
+    width: 655px;
+    height: 575px;
+    border: none;
+    border-radius: 14px;
+    object-fit:cover;
+}
+
+.about-me-main-sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.about-me-main-card, .about-me-main-card-one, .about-me-main-card-two {
+    background: #003366;
+    border: none;
+    border-radius: 14px;
+    color: #FBFBFB;
+    margin: 0;
+}
+
+.about-me-main-card {
+    width: 660px;
+    height: 333px;
+}
+
+.about-me-main-card h3{
+    margin: 37px 0 0 34px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.about-me-main-card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 34px; 
+}
+
+.about-me-main-card-one, .about-me-main-card-two {
+    width: 317px;
+    margin-top: -28px;
+}
+
+.about-me-main-card-one h2, .about-me-main-card-two h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+}
+
+.about-me-main-card-one p, .about-me-main-card-two p {
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
