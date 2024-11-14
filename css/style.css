@@ -81,6 +81,7 @@ a {
     font-size: 16px;
     line-height: 16px;
     text-align: center;
+    color: #343434;
 }
 
 .nav-icon {
@@ -676,4 +677,407 @@ a {
     font-size: 20px;
     line-height: 30px;
     color: #003366;
+}
+
+/* Testimonials */
+
+.testimonials {
+    width: 1920px;
+    height: 551px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-container {
+    width: 1340px;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonials-container-header {
+    width: 1340px;
+    height: 63px;
+}
+
+.testimonials-container-header h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    line-height: 63px;
+    color: #003366;
+    margin: 0;
+}
+
+.testimonials-container-main {
+    width: 1340px !important;
+    height: 371px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 30px !important;
+}
+
+.testimonials-container-main-employees {
+    width: 100% !important;
+    height: 265px !important;
+    display: flex !important;
+    gap: 24px !important;
+}
+
+.testimonials-container-main-employees-card {
+    width: 658px !important;
+    max-height: 265px !important;
+    border: 1px solid #003366 !important;
+    border-radius: 12px !important;
+    padding: 20px 80px 20px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+}
+
+.testimonials-container-main-employees-card img {
+    width: 200px;
+    height: 225px;
+    border-radius: 12px;
+}
+
+.testimonials-container-main-employees-card-container {
+    width: 340px;
+    height: 218px;
+}
+
+.testimonials-container-main-employees-card-container-header {
+    width: 120px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.testimonials-container-main-employees-card-container-header h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+    margin: 0;
+}
+
+.testimonials-container-main-employees-card-container-header p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6B;
+    margin: 0;
+}
+
+.testimonials-container-main-employees-card-stars {
+    width: 120px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials-container-main-employees-card-stars img {
+    width: 24px;
+    height: 24px;
+    border-radius: 0.6px;
+    color: #F4DC00;
+}
+
+.testimonials-container-main-employees-card-container p {
+    width: 340px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343434;
+}
+
+.testimonials-container-main-buttons {
+    width: 221px;
+    max-height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #BFCCD8;
+    border-radius: 100px;
+    padding: 12px 14px;
+}
+
+.testimonials-container-main-buttons button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 46px;
+    background: #003366;
+}
+
+.testimonials-container-main-buttons button img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.testimonials-container-main-buttons-indication {
+    display: flex;
+    gap: 4px;
+}
+
+/* FAQ */
+
+.faq {
+    width: 1920px;
+    height: 784px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-container {
+    width: 1340px;
+    height: 684px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-container-header h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: #003366;
+    margin: 0;
+}
+
+.faq-container-main {
+    display: flex;
+    gap: 24px;
+}
+
+.faq-container-main-items {
+    width: 772px;
+    height: 611px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-container-main-faq-item {
+    max-width: 772px;
+    height: 100px;
+    border: 1px solid #003366;
+    border-radius: 16px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-container-main-faq-item-opened {
+    max-width: 772px;
+    height: 216px;
+    border: 1px solid #003366;
+    border-radius: 16px;
+    padding: 40px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.faq-container-main-faq-item-text-container {
+    width: 612px;
+    max-height: 171px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -24px;
+}
+
+.faq-container-main-faq-item-text-container p {
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+    margin-bottom: 0;
+}
+
+.faq-container-main-faq-item-text-container div.line {
+    width: 612px;
+    border-bottom: 1px solid #003366;
+}
+
+.faq-text-container-second-paragraph {
+    width: 612px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+    margin: 0;
+}
+
+.faq-container-main-faq-item p {
+    width: 622px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+}
+
+.faq-container-main-faq-item button, .faq-container-main-faq-item-opened button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    padding: 14px;
+    background: #003366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-container-main-faq-item button img, .faq-container-main-faq-item-opened button img {
+    width: 24px;
+    height: 24px;
+}
+
+.open-close-container {
+    display: none;
+} 
+
+.faq-container-main-form {
+    width: 544px;
+    height: 611px;
+    border: none;
+    border-radius: 14px;
+    background: #003366;
+    box-shadow: 10px 10px 50px 0px #0062FF08;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.faq-container-main-form h4 {
+    width: 243px;
+    height: 36px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FBFBFB;
+    margin: 0;
+}
+
+.faq-container-main-form-line {
+    width: 424px;
+    border-bottom: 1px solid #FBFBFB;
+}
+
+.faq-container-main-form-elements {
+    width: 424px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-container-main-form-elements input {
+    width: 424px;
+    height: 64px;
+    border: 1px solid #ECECEC;
+    border-radius: 4px;
+}
+
+.faq-container-main-form-elements input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+    padding: 12px 14px;
+}
+
+.faq-container-main-form-elements textarea {
+    width: 424px;
+    height: 114px;
+}
+
+.faq-container-main-form-elements textarea::placeholder {
+    width: 396px;
+    height: 27px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+    padding: 12px 14px;
+}
+
+.faq-container-main-form button {
+    width: 235px;
+    height: 58px;
+    border: none;
+    border-radius: 14px;
+    padding: 14px 30px;
+    color: #FBFBFB;
+}
+
+.faq-container-main-form button p {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #003366;
+    margin: 0;
+}
+
+/* Footer */
+
+.footer {
+    width: 1920px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.footer-logo-container {
+    width: 484px;
+    height: 48px;
+}
+
+.footer-logo-container img {
+    width: 48px;
+    height: 48px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #003366;
+}
+
+.footer nav {
+    max-width: 484px;
+    height: 40px;
+    list-style-type: none;
+}
+
+
+.footer_menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
