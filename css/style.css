@@ -1,11 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
+    font-style: normal;
     background: #FBFBFB;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-family: 'Poppins', serif;
+    font-size: 42px;
+    line-height: 63px;
+    font-weight: 500;
+    font-style: normal;
+    color: #003366;
 }
 
 a {
@@ -147,6 +161,7 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    color: #FBFBFB;
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -227,7 +242,8 @@ a {
     font-size: 18px;
     line-height: 27px;
     text-align: center;
-    margin-bottom: 20px;
+    color: #343434;
+    margin-bottom: 30px;
 }
 
 .advantages_item:first-child {
@@ -249,11 +265,6 @@ a {
 .advantages_main_item h2 {
     width: 990px;
     height: 63px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 42px;
-    line-height: 63px;
-    font-weight: 500;
-    color: #003366;
 }
 
 /* About me*/
@@ -282,11 +293,6 @@ a {
 .about-me-header-container h2 {
     width: 1167px;
     height: 63px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 63px;
-    color: #003366;
     margin: 0;
 }
 
@@ -356,6 +362,7 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 36px;
+    font-style: normal;
     line-height: 54px;
 }
 
@@ -372,11 +379,8 @@ a {
 }
 
 .about-me-main-card-one h2, .about-me-main-card-two h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 63px;
     text-align: center;
+    color: #FBFBFB;
 }
 
 .about-me-main-card-one p, .about-me-main-card-two p {
@@ -404,14 +408,6 @@ a {
 
 .our-courses-header {
     margin-bottom: -20px;
-}
-
-.our-courses-header h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 63px;
-    color: #003366;
 }
 
 .our-courses-card-container {
@@ -617,9 +613,6 @@ a {
 }
 
 .lead-magnet-container-text h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 42px;
-    line-height: 63px;
     color: #FBFBFB;
     margin: 0;
 }
@@ -703,10 +696,6 @@ a {
 }
 
 .testimonials-container-header h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 42px;
-    line-height: 63px;
-    color: #003366;
     margin: 0;
 }
 
@@ -844,11 +833,6 @@ a {
 }
 
 .faq-container-header h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 63px;
-    color: #003366;
     margin: 0;
 }
 
@@ -963,9 +947,9 @@ a {
 }
 
 .faq-container-main-form h4 {
-    width: 243px;
-    height: 36px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 24px;
     line-height: 36px;
     color: #FBFBFB;
@@ -1069,7 +1053,6 @@ a {
     list-style-type: none;
 }
 
-
 .footer_menu ul {
     list-style-type: none;
     padding: 0;
@@ -1080,4 +1063,5 @@ a {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
+    gap: 16px;
 }
